@@ -1,0 +1,67 @@
+#loginBody{
+    background: radial-gradient(#939393,#7e7e7e);
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.layout{
+    position: relative;
+    background-color: white;
+    margin: 25px auto;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.52);
+}
+
+.logincontainer{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+}
+
+#login-websiteLogo{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+    margin-left:150px;
+
+}
+
+ #greeting{
+    position: absolute;
+    width:100%;
+    padding: 0;
+    margin-top: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+}
+
+#Work {
+    float: left;
+    background-color: #0000A0;
+    border: 2px solid white;
+    padding: 17px 27px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top:213px;
+  
+  
+}
+  
+#Hire {
+    float: left;
+    color: white;
+    background-color: #ff6700;
+    padding: 17px 27px;
+    text-decoration: none;
+    margin-top:214px;
+    margin-left:100px;
+  
+}

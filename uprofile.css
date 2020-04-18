@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height:68px;
+  background: white;
+}
+
+body{
+  margin: 0;
+  background: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 4400;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container > h4{
+  border: 0px solid rgb(54, 37, 24);
+  font-size: 30px;
+  padding: 10px 10px;
+  margin: 5px;
+  float: left;
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.websiteLogo{
+  float:left;
+  margin-top: 10px;
+  height: 50px;
+  width: auto;
+}
+
+nav {
+  float: left;
+}
+
+/* left navbar */
+
+.navbar1 ul {
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.navbar1 li {
+  display: inline-block;
+  height: auto;
+  margin-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+/* mid navbar*/
+.midnav {
+
+    text-align: center;
+}
+
+
+.searchbar {
+
+    width:500px;
+    padding:8px;
+    border:thin 50px;
+    background-color: white;
+    outline:none;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.searchbar:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.searchbar:hover {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.searchbutton {
+    width:40px;
+    height:35px;
+    padding-top:20px;
+
+}
+/* right navbar */
+
+.navbar {
+  float: right;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0 0 0 0px;
+  list-style: none;
+}
+
+.navbar li {
+
+  display: inline-block;
+  height:auto;
+  margin-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  /*text-transform: uppercase; */
+  font-weight: 8800;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav a:hover {
+  color: #0000FF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #0000FF;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#prbtn {
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+}
+/* Main background */
+.main {
+
+    background-color: lightgrey;
+    padding-top:50px;
+    padding-bottom: 350px;
+}
+
+
+/* head*/
+.main >strong {
+
+  padding-left:210px;
+  font-size:35px;
+}
+
+/* profile and details */
+.boxes {
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:75px;
+}
+
+/* inside profile */
+
+.profiledetails {
+
+    text-align: center;
+    border:thin 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:300px;
+    margin-left:210px;
+    padding-top:40px;
+}
+
+.profiledetails > strong {
+
+    font-size:25px;
+}
+
+/* inside details */
+
+.details {
+
+    border:thin 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right:190px;
+    width:770px;
+    text-align: left;
+    padding:20px;
+}
+
+input:focus {outline: none; }
+
+.profilebtn {
+
+  height:40px;
+  background-color:rgb(33, 56, 155);
+  color:white;
+  margin-right:20px;
+  width:100px;
+  float:right;
+}
+
+.profilebtn:hover {
+
+  background-color:rgb(63, 92, 221);
+}
+
+hr {
+  border: 0;
+  color: #655739;
+  background-color: #655739;
+  height:1px;
+  margin-top:20px;
+}
+
+.about {
+
+  font-size:25px;
+}
